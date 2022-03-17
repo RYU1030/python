@@ -1,7 +1,7 @@
-import pandas as pd
+import pandas as pd # pandasを読み込む
 
-READ_PATH = ".//CSV//node.csv"  # 読み込み元CSVパス
-WRITE_PATH = ".//CSV//child_nodes_count.csv"  # 書き込み先CSVパス
+READ_PATH = "読み込み元CSVパス"  
+WRITE_PATH = "書き込み先CSVパス" 
 
 
 class ChildNodesCount:
